@@ -22,13 +22,18 @@ header {
   margin: 0;
   text-align: center;
   overflow: hidden;
-  color: #18294f;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 header h1 {
   color: #fff;
   margin: 0;
-  padding-top: 8px;
+  font-size: 2rem;
+  line-height: 1;
 }
 
 li {
@@ -42,6 +47,7 @@ li {
 nav ul {
   padding-left: 0;
   overflow: hidden;
+  font-size: 1.125rem;
 }
 
 nav a {
@@ -49,6 +55,7 @@ nav a {
   color: #6c8fe0;
   padding: 5px;
   width: auto;
+  white-space: nowrap;
 }
 
 li:hover {
@@ -58,6 +65,7 @@ li:hover {
 
 nav a:hover {
   color: #fff;
+  background-color: #6c8fe0;
 }
 
 *, *::before, *::after {
@@ -91,6 +99,7 @@ nav a:hover {
 
   h1 {
     margin: 0 0 1.4rem;
+    width: 25%;
   }
 
   li {
